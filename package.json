@@ -7,7 +7,12 @@
     "ios": "react-native run-ios",
     "lint": "eslint .",
     "start": "react-native start",
-    "test": "jest"
+    "test": "jest",
+    "build:ios": "npx react-native bundle --platform ios --config metro.config.js --dev true --entry-file index.js --bundle-output bundle/main.ios.jsbundle --assets-dest bundle/main.ios --reset-cache",
+    "build:ios:common": "npx react-native bundle --platform ios --config metro.common.config.js --dev true --entry-file common.js --bundle-output bundle/common.ios.jsbundle --assets-dest bundle/common.ios",
+    "build:ios:business":"npx react-native bundle --platform ios --config metro.business.config.js --dev true --entry-file index.js --bundle-output bundle/business.ios.jsbundle --assets-dest bundle/business.ios",
+    "build:ios:business2":"npx react-native bundle --platform ios --config metro.business.config.js --dev true --entry-file index_business2.js --bundle-output bundle/business2.ios.jsbundle  --assets-dest bundle/business2.ios",
+    "bundle-android": "react-native bundle --platform android --dev false --entry-file index.js --bundle-output android/app/src/main/assets/index.android.bundle --assets-dest android/app/src/main/res/"
   },
   "dependencies": {
     "react": "18.2.0",

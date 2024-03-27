@@ -15,9 +15,18 @@
 		C9CFF61A2BB3B4590094F4DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9CFF6192BB3B4590094F4DE /* Assets.xcassets */; };
 		C9CFF61D2BB3B4590094F4DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9CFF61B2BB3B4590094F4DE /* LaunchScreen.storyboard */; };
 		C9CFF6322BB3BDE90094F4DE /* PackageType.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9CFF62D2BB3BDE90094F4DE /* PackageType.swift */; };
-		C9CFF6332BB3BDE90094F4DE /* RNBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9CFF62E2BB3BDE90094F4DE /* RNBridge.swift */; };
 		C9CFF63A2BB3C05D0094F4DE /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9CFF6392BB3C05D0094F4DE /* JavaScriptCore.framework */; };
 		C9CFF63D2BB3C1E80094F4DE /* RNRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9CFF63C2BB3C1E80094F4DE /* RNRootViewController.swift */; };
+		C9CFF6712BB3FCEA0094F4DE /* business2.ios.jsbundle in Resources */ = {isa = PBXBuildFile; fileRef = C9CFF6482BB3FCEA0094F4DE /* business2.ios.jsbundle */; };
+		C9CFF6782BB3FCEA0094F4DE /* common.ios.jsbundle in Resources */ = {isa = PBXBuildFile; fileRef = C9CFF6592BB3FCEA0094F4DE /* common.ios.jsbundle */; };
+		C9CFF6792BB3FCEA0094F4DE /* business.ios.jsbundle in Resources */ = {isa = PBXBuildFile; fileRef = C9CFF65A2BB3FCEA0094F4DE /* business.ios.jsbundle */; };
+		C9CFF6802BB3FCEA0094F4DE /* main.ios.jsbundle in Resources */ = {isa = PBXBuildFile; fileRef = C9CFF6702BB3FCEA0094F4DE /* main.ios.jsbundle */; };
+		C9CFF6AB2BB405C40094F4DE /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = C9CFF6A22BB405C40094F4DE /* logo.png */; };
+		C9CFF6AC2BB405C40094F4DE /* loader.png in Resources */ = {isa = PBXBuildFile; fileRef = C9CFF6A62BB405C40094F4DE /* loader.png */; };
+		C9CFF6AD2BB405C40094F4DE /* chevron-right.png in Resources */ = {isa = PBXBuildFile; fileRef = C9CFF6A72BB405C40094F4DE /* chevron-right.png */; };
+		C9CFF6AE2BB405C40094F4DE /* chevron-left.png in Resources */ = {isa = PBXBuildFile; fileRef = C9CFF6A82BB405C40094F4DE /* chevron-left.png */; };
+		C9CFF6AF2BB405C40094F4DE /* alert-triangle.png in Resources */ = {isa = PBXBuildFile; fileRef = C9CFF6A92BB405C40094F4DE /* alert-triangle.png */; };
+		C9CFF6B02BB405C40094F4DE /* close.png in Resources */ = {isa = PBXBuildFile; fileRef = C9CFF6AA2BB405C40094F4DE /* close.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,12 +40,21 @@
 		C9CFF61C2BB3B4590094F4DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C9CFF61E2BB3B4590094F4DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C9CFF62D2BB3BDE90094F4DE /* PackageType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PackageType.swift; sourceTree = "<group>"; };
-		C9CFF62E2BB3BDE90094F4DE /* RNBridge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RNBridge.swift; sourceTree = "<group>"; };
 		C9CFF6342BB3BEB10094F4DE /* RNNativeModuleAPIs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNNativeModuleAPIs.h; sourceTree = "<group>"; };
 		C9CFF6382BB3BFA00094F4DE /* RNSplitCodeToMultipleBundles-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RNSplitCodeToMultipleBundles-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
 		C9CFF6392BB3C05D0094F4DE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		C9CFF63B2BB3C0BA0094F4DE /* RCTBridge+PackageBundle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RCTBridge+PackageBundle.h"; sourceTree = "<group>"; };
 		C9CFF63C2BB3C1E80094F4DE /* RNRootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RNRootViewController.swift; sourceTree = "<group>"; };
+		C9CFF6482BB3FCEA0094F4DE /* business2.ios.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = business2.ios.jsbundle; sourceTree = "<group>"; };
+		C9CFF6592BB3FCEA0094F4DE /* common.ios.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = common.ios.jsbundle; sourceTree = "<group>"; };
+		C9CFF65A2BB3FCEA0094F4DE /* business.ios.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = business.ios.jsbundle; sourceTree = "<group>"; };
+		C9CFF6702BB3FCEA0094F4DE /* main.ios.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.ios.jsbundle; sourceTree = "<group>"; };
+		C9CFF6A22BB405C40094F4DE /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		C9CFF6A62BB405C40094F4DE /* loader.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loader.png; sourceTree = "<group>"; };
+		C9CFF6A72BB405C40094F4DE /* chevron-right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chevron-right.png"; sourceTree = "<group>"; };
+		C9CFF6A82BB405C40094F4DE /* chevron-left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chevron-left.png"; sourceTree = "<group>"; };
+		C9CFF6A92BB405C40094F4DE /* alert-triangle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "alert-triangle.png"; sourceTree = "<group>"; };
+		C9CFF6AA2BB405C40094F4DE /* close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = close.png; sourceTree = "<group>"; };
 		E3860FB460084A7BD3C024C3 /* Pods-RNSplitCodeToMultipleBundles.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNSplitCodeToMultipleBundles.debug.xcconfig"; path = "Target Support Files/Pods-RNSplitCodeToMultipleBundles/Pods-RNSplitCodeToMultipleBundles.debug.xcconfig"; sourceTree = "<group>"; };
 		EAB769571720FC6790983BFA /* Pods-RNSplitCodeToMultipleBundles.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNSplitCodeToMultipleBundles.release.xcconfig"; path = "Target Support Files/Pods-RNSplitCodeToMultipleBundles/Pods-RNSplitCodeToMultipleBundles.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -93,12 +111,12 @@
 		C9CFF60F2BB3B4570094F4DE /* RNSplitCodeToMultipleBundles */ = {
 			isa = PBXGroup;
 			children = (
+				C9CFF6472BB3FCEA0094F4DE /* bundle */,
 				C9CFF6102BB3B4570094F4DE /* AppDelegate.swift */,
 				C9CFF6122BB3B4570094F4DE /* SceneDelegate.swift */,
 				C9CFF6142BB3B4570094F4DE /* ViewController.swift */,
 				C9CFF6162BB3B4580094F4DE /* Main.storyboard */,
 				C9CFF62D2BB3BDE90094F4DE /* PackageType.swift */,
-				C9CFF62E2BB3BDE90094F4DE /* RNBridge.swift */,
 				C9CFF63C2BB3C1E80094F4DE /* RNRootViewController.swift */,
 				C9CFF6342BB3BEB10094F4DE /* RNNativeModuleAPIs.h */,
 				C9CFF63B2BB3C0BA0094F4DE /* RCTBridge+PackageBundle.h */,
@@ -108,6 +126,96 @@
 				C9CFF61E2BB3B4590094F4DE /* Info.plist */,
 			);
 			path = RNSplitCodeToMultipleBundles;
+			sourceTree = "<group>";
+		};
+		C9CFF6472BB3FCEA0094F4DE /* bundle */ = {
+			isa = PBXGroup;
+			children = (
+				C9CFF69C2BB405C40094F4DE /* assets */,
+				C9CFF6482BB3FCEA0094F4DE /* business2.ios.jsbundle */,
+				C9CFF6592BB3FCEA0094F4DE /* common.ios.jsbundle */,
+				C9CFF65A2BB3FCEA0094F4DE /* business.ios.jsbundle */,
+				C9CFF6702BB3FCEA0094F4DE /* main.ios.jsbundle */,
+			);
+			name = bundle;
+			path = ../../bundle;
+			sourceTree = "<group>";
+		};
+		C9CFF69C2BB405C40094F4DE /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				C9CFF69D2BB405C40094F4DE /* node_modules */,
+			);
+			path = assets;
+			sourceTree = "<group>";
+		};
+		C9CFF69D2BB405C40094F4DE /* node_modules */ = {
+			isa = PBXGroup;
+			children = (
+				C9CFF69E2BB405C40094F4DE /* react-native */,
+			);
+			path = node_modules;
+			sourceTree = "<group>";
+		};
+		C9CFF69E2BB405C40094F4DE /* react-native */ = {
+			isa = PBXGroup;
+			children = (
+				C9CFF69F2BB405C40094F4DE /* Libraries */,
+			);
+			path = "react-native";
+			sourceTree = "<group>";
+		};
+		C9CFF69F2BB405C40094F4DE /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				C9CFF6A02BB405C40094F4DE /* NewAppScreen */,
+				C9CFF6A32BB405C40094F4DE /* LogBox */,
+			);
+			path = Libraries;
+			sourceTree = "<group>";
+		};
+		C9CFF6A02BB405C40094F4DE /* NewAppScreen */ = {
+			isa = PBXGroup;
+			children = (
+				C9CFF6A12BB405C40094F4DE /* components */,
+			);
+			path = NewAppScreen;
+			sourceTree = "<group>";
+		};
+		C9CFF6A12BB405C40094F4DE /* components */ = {
+			isa = PBXGroup;
+			children = (
+				C9CFF6A22BB405C40094F4DE /* logo.png */,
+			);
+			path = components;
+			sourceTree = "<group>";
+		};
+		C9CFF6A32BB405C40094F4DE /* LogBox */ = {
+			isa = PBXGroup;
+			children = (
+				C9CFF6A42BB405C40094F4DE /* UI */,
+			);
+			path = LogBox;
+			sourceTree = "<group>";
+		};
+		C9CFF6A42BB405C40094F4DE /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				C9CFF6A52BB405C40094F4DE /* LogBoxImages */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		C9CFF6A52BB405C40094F4DE /* LogBoxImages */ = {
+			isa = PBXGroup;
+			children = (
+				C9CFF6A62BB405C40094F4DE /* loader.png */,
+				C9CFF6A72BB405C40094F4DE /* chevron-right.png */,
+				C9CFF6A82BB405C40094F4DE /* chevron-left.png */,
+				C9CFF6A92BB405C40094F4DE /* alert-triangle.png */,
+				C9CFF6AA2BB405C40094F4DE /* close.png */,
+			);
+			path = LogBoxImages;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -172,8 +280,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9CFF6802BB3FCEA0094F4DE /* main.ios.jsbundle in Resources */,
+				C9CFF6AC2BB405C40094F4DE /* loader.png in Resources */,
+				C9CFF6782BB3FCEA0094F4DE /* common.ios.jsbundle in Resources */,
+				C9CFF6792BB3FCEA0094F4DE /* business.ios.jsbundle in Resources */,
+				C9CFF6AF2BB405C40094F4DE /* alert-triangle.png in Resources */,
 				C9CFF61D2BB3B4590094F4DE /* LaunchScreen.storyboard in Resources */,
+				C9CFF6AB2BB405C40094F4DE /* logo.png in Resources */,
+				C9CFF6B02BB405C40094F4DE /* close.png in Resources */,
+				C9CFF6AD2BB405C40094F4DE /* chevron-right.png in Resources */,
 				C9CFF61A2BB3B4590094F4DE /* Assets.xcassets in Resources */,
+				C9CFF6AE2BB405C40094F4DE /* chevron-left.png in Resources */,
+				C9CFF6712BB3FCEA0094F4DE /* business2.ios.jsbundle in Resources */,
 				C9CFF6182BB3B4580094F4DE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -246,7 +364,6 @@
 			files = (
 				C9CFF6152BB3B4570094F4DE /* ViewController.swift in Sources */,
 				C9CFF63D2BB3C1E80094F4DE /* RNRootViewController.swift in Sources */,
-				C9CFF6332BB3BDE90094F4DE /* RNBridge.swift in Sources */,
 				C9CFF6112BB3B4570094F4DE /* AppDelegate.swift in Sources */,
 				C9CFF6322BB3BDE90094F4DE /* PackageType.swift in Sources */,
 				C9CFF6132BB3B4570094F4DE /* SceneDelegate.swift in Sources */,
@@ -430,7 +547,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.hut.RNSplitCodeToMultipleBundles;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hut.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "RNSplitCodeToMultipleBundles-Bridging-Header.h";
@@ -464,7 +581,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.hut.RNSplitCodeToMultipleBundles;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hut.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "RNSplitCodeToMultipleBundles-Bridging-Header.h";

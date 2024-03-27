@@ -42,9 +42,9 @@
                                 </connections>
                             </button>
                             <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KkX-fk-ea5">
-                                <rect key="frame" x="95.666666666666686" y="495.33333333333331" width="202" height="40.333333333333314"/>
+                                <rect key="frame" x="116.66666666666667" y="495.33333333333326" width="159.66666666666663" height="41"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Load Business3 Bundle"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Load Main Bundle"/>
                                 <connections>
                                     <action selector="buttonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dHf-lE-81p"/>
                                 </connections>

@@ -9,26 +9,46 @@ import Foundation
 enum PackageType: Int {
     case common = 0
     case business
+    case business2
+    case main
+    case network
     
-    var info: (name: String, moduelName: String, packageName: String) {
-        var n: String = ""
+    var info: (moduelName: String, packageName: String, title: String) {
+        var title: String = ""
         var module: String = ""
         var pkg: String = ""
         switch self {
         case .common:
-            n = "common"
+            title = "common bundle"
             module = "common"
             pkg = "common.ios"
         case .business:
-            n = "business"
-            module = "business"
+            title = "business bundle"
+            module = "RNSplitCodeToMultipleBundles"
             pkg = "business.ios"
+        case .main:
+            title = "main bundle"
+            module = "RNSplitCodeToMultipleBundles"
+            pkg = "main.ios"
+        case .business2:
+            title = "business2 bundle"
+            module = "business2"
+            pkg = "business2.ios"
+        case .network:
+            title = "network bundle"
+            module = "RNSplitCodeToMultipleBundles"
+            pkg = "RNSplitCodeToMultipleBundles"
         }
-        return (n, module, pkg)
+        return (module, pkg, title)
     }
     
     var packageUrl: URL? {
-        guard let jsBundleLocation = Bundle.main.url(forResource: self.info.packageName, withExtension: "jsbundle") else { return nil }
-        return jsBundleLocation
+        if self == .network {
+            guard let jsBundleLocation = URL(string: "http://20.4.2.128:8081/index.bundle?platform=ios&dev=true&hot=false") else { return nil }
+            return jsBundleLocation
+        } else {
+            guard let jsBundleLocation = Bundle.main.url(forResource: self.info.packageName, withExtension: "jsbundle") else { return nil }
+            return jsBundleLocation
+        }
     }
 }

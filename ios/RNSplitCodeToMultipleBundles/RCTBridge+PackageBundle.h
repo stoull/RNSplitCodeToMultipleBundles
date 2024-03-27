@@ -16,9 +16,9 @@
 
 @interface RCTBridge (PackageBundle)
 
+// exports the private method from RCTBridge
 - (RCTBridge *)batchedBridge;
-
-//- (void)executeSourceCode:(NSData *)script sync:(BOOL)sync;
+// exports the private method
 - (void)executeApplicationScript:(NSData *)script url:(NSURL *)url async:(BOOL)async;
 @end
 

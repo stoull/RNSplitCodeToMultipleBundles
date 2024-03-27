@@ -28,26 +28,39 @@ class RNRootViewController: UIViewController {
 
 
 extension RNRootViewController {
+    // Create a VC with RCTRootView from bundle url
     static func createRootVC(type: PackageType) -> RNRootViewController? {
-        
-//        guard let jsBundleLocation = Bundle.main.url(forResource: "main", withExtension: "jsbundle") else { return nil }
-        
-        guard let jsBundleLocation = URL(string: "http://20.4.2.128:8081/index.bundle?platform=ios&dev=true&hot=false") else { return nil }
-        
+        guard let jsbundleUrl = type.packageUrl else { return nil }
         let mockData:NSDictionary = ["nickName": "Hut's Dev",
                                      "deviceSN": "SDDNSHFKDK002",
-                                     "online": 1,
+                                     "type": type.rawValue,
                                      "UserId": "Hut"]
-        
-          let rootView = RCTRootView(
-              bundleURL: jsBundleLocation,
-              moduleName: "RNSplitCodeToMultipleBundles",
+
+        let rootView = RCTRootView(
+              bundleURL: jsbundleUrl,
+              moduleName: type.info.moduelName,
               initialProperties: mockData as [NSObject : AnyObject],
-              launchOptions: nil
-          )
-          let vc = RNRootViewController()
-          vc.view = rootView
+              launchOptions: nil)
+        let vc = RNRootViewController()
+        vc.title = type.info.title
+        vc.view = rootView
         return vc
     }
 
+    // Create a VC with RCTRootView from a bridge
+    static func createRootVC(bridge: RCTBridge, type: PackageType) -> RNRootViewController? {
+        guard let jsbundleUrl = type.packageUrl else { return nil }
+        
+        let mockData:NSDictionary = ["nickName": "Hut's Dev",
+                                     "deviceSN": "SDDNSHFKDK002",
+                                     "type": type.rawValue,
+                                     "UserId": "Hut"]
+        let rootView = RCTRootView(bridge: bridge,
+                                   moduleName: type.info.moduelName,
+                                   initialProperties: mockData as [NSObject : AnyObject])
+        let vc = RNRootViewController()
+        vc.title = type.info.title
+        vc.view = rootView
+        return vc
+    }
 }
